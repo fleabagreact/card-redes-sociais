@@ -13,3 +13,7 @@ function redirectToLetterboxd() {
 function redirectToSpotify() {
     window.open("https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy", "_blank");
 }
+
+function redirectToVSCO() {
+    window.open("https://vsco.co/sunriseblvdr", "_blank");
+}
