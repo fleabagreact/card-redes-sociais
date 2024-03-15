@@ -1,9 +1,13 @@
-function redirectToGitHub() {
-    window.open("https://github.com/fleabagreact", "_blank");
+function redirectToInstagram() {
+    window.open("https://instagram.com/lududo_", "_blank");
 }
 
 function redirectToTwitter() {
     window.open("https://twitter.com/sylviephillia", "_blank");
+}
+
+function redirectToGitHub() {
+    window.open("https://github.com/fleabagreact", "_blank");
 }
 
 function redirectToLetterboxd() {
