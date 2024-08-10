@@ -2,62 +2,70 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    background-color: #800000;
-    color: #fff;
+    background-color: #912222;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    min-height: 100vh;
 }
 
-#about-me {
-    font-size: 20px;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    background-color: #800000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #800000;
+}
+
+.info h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.info h2 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #ffffff;
 }
 
 .social-icons {
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
     margin-top: 10px;
 }
 
 .social-icons a {
-    display: inline-block;
-    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 8px 15px;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    width: 150px;
-    box-sizing: border-box;
+    background-color: #6e0909;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .social-icons a:hover {
-    transform: scale(1.2);
-    background-color: #fff;
-    color: #800000;
+    background-color: #a00000;
 }
 
-
-@media only screen and (max-width: 600px) {
-    #about-me {
-        font-size: 16px;
-        max-width: 60%;
-    }
-
-    .social-icons a {
-        width: 100%;
-        font-size: 16px;
-        margin: 8px;
-    }
+.container p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
 }
