@@ -71,8 +71,17 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 0 10px;
+    }
+
     .container {
         transform: scale(0.9);
+        transform-origin: center;
     }
 
     .profile-picture img {
@@ -89,11 +98,11 @@ body {
     }
 
     .social-icons a {
-        font-size: 12.6px;
+        font-size: 13px;
         padding: 9px 13.5px;
     }
 
     .container p {
-        font-size: 12.6px; 
+        font-size: 13px;
     }
 }
