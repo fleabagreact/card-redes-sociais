@@ -41,7 +41,6 @@ a {
     color: #ffffff;
 }
 
-/* Estilo para os ícones principais */
 .social-icons {
     display: flex;
     flex-wrap: wrap;
@@ -129,8 +128,8 @@ a {
     }
 
     .profile-picture img {
-        width: 135px;
-        height: 135px;
+        width: 130px;
+        height: 130px;
     }
 
     .info h1 {
@@ -142,22 +141,22 @@ a {
     }
 
     .social-icons a {
-        font-size: 13px;
-        width: 50px;
-        height: 50px;
+        font-size: 14px;
+        width: 60px;
+        height: 60px;
     }
 
     .drawer a {
-        font-size: 13px;
+        font-size: 14px;
         width: 50px;
         height: 50px;
     }
 
     .container p {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     #more-options {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
