@@ -2,8 +2,8 @@ function redirectToInstagram() {
     window.open("https://www.instagram.com", "_blank");
 }
 
-function redirectToFigma() {
-    window.open("https://www.figma.com", "_blank");
+function redirectToBehance() {
+    window.open("https://www.behance.net", "_blank");
 }
 
 function redirectToGitHub() {
@@ -12,6 +12,10 @@ function redirectToGitHub() {
 
 function redirectToLinkedIn() {
     window.open("https://www.linkedin.com", "_blank");
+}
+
+function redirectToFigma() {
+    window.open("https://www.figma.com", "_blank");
 }
 
 function redirectToSpotify() {
