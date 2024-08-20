@@ -49,20 +49,20 @@ a {
     margin-top: 10px;
 }
 
-.social-icons a {
+.social-icons a, .drawer a {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6e0909;
     color: #fff;
     width: 60px;
-    height: 60px;
+    height: 60px; 
     border-radius: 5px;
     transition: background-color 0.3s;
     font-size: 24px;
 }
 
-.social-icons a:hover {
+.social-icons a:hover, .drawer a:hover {
     background-color: #a00000;
 }
 
@@ -87,30 +87,6 @@ a {
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
-}
-
-.drawer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #6e0909;
-    color: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-size: 24px;
-}
-
-.drawer a:hover {
-    background-color: #a00000;
-}
-
-.social-icons a i, .drawer a i {
-    vertical-align: middle;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -140,16 +116,10 @@ a {
         font-size: 16.2px;
     }
 
-    .social-icons a {
-        font-size: 14px;
-        width: 60px;
-        height: 60px;
-    }
-
-    .drawer a {
-        font-size: 14px;
-        width: 50px;
-        height: 50px;
+    .social-icons a, .drawer a {
+        font-size: 28px;
+        width: 80px;
+        height: 80px;
     }
 
     .container p {
