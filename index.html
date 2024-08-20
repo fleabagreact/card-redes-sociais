@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://i.pinimg.com/736x/ae/8a/24/ae8a24a3cac68f21f14b48317d309de4.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Luiza ! ★</title>
 </head>
@@ -23,13 +24,19 @@
         </div>
 
         <div class="social-icons">
-            <a href="#" onclick="redirectToInstagram()" target="_blank">Instagram</a>
-            <a href="#" onclick="redirectToTwitter()" target="_blank">Twitter</a>
-            <a href="#" onclick="redirectToGitHub()" target="_blank">GitHub</a>
-            <a href="#" onclick="redirectToLetterboxd()" target="_blank">Letterboxd</a>
-            <a href="#" onclick="redirectToSpotify()" target="_blank">Spotify</a>
-            <a href="#" onclick="redirectToVSCO()" target="_blank">VSCO</a>
+            <a href="#" onclick="redirectToInstagram()" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" onclick="redirectToFigma()" target="_blank"><i class="fab fa-figma"></i></a>
+            <a href="#" onclick="redirectToGitHub()" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" onclick="redirectToLinkedIn()" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
+        
+        <p id="more-options" onclick="toggleDrawer()">⋆˚｡⋆୨୧˚</p>
+        
+        <div id="drawer" class="drawer">
+            <a href="#" onclick="redirectToSpotify()" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="#" onclick="redirectToLetterboxd()" target="_blank"><i class="fab fa-letterboxd"></i></a>
+            <a href="#" onclick="redirectToSkoob()" target="_blank"><i class="fas fa-skoob"></i></a>
+        </div>        
 
         <p>Old habits die <b>screaming</b></p>
         
