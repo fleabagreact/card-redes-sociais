@@ -1,23 +1,36 @@
 function redirectToInstagram() {
-    window.open("https://instagram.com/lududo_", "_blank");
+    window.open("https://www.instagram.com", "_blank");
 }
 
-function redirectToTwitter() {
-    window.open("https://twitter.com/sylviephillia", "_blank");
+function redirectToFigma() {
+    window.open("https://www.figma.com", "_blank");
 }
 
 function redirectToGitHub() {
-    window.open("https://github.com/fleabagreact", "_blank");
+    window.open("https://www.github.com", "_blank");
 }
 
-function redirectToLetterboxd() {
-    window.open("https://boxd.it/5jKwh", "_blank");
+function redirectToLinkedIn() {
+    window.open("https://www.linkedin.com", "_blank");
 }
 
 function redirectToSpotify() {
-    window.open("https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy", "_blank");
+    window.open("https://www.spotify.com", "_blank");
 }
 
-function redirectToVSCO() {
-    window.open("https://vsco.co/sunriseblvdr", "_blank");
+function redirectToLetterboxd() {
+    window.open("https://letterboxd.com/", "_blank");
+}
+
+function redirectToSkoob() {
+    window.open("https://www.skoob.com.br", "_blank");
+}
+
+function toggleDrawer() {
+    var drawer = document.getElementById('drawer');
+    if (drawer.style.display === "none" || drawer.style.display === "") {
+        drawer.style.display = "flex";
+    } else {
+        drawer.style.display = "none";
+    }
 }
