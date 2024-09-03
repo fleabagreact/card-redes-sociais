@@ -15,7 +15,7 @@ function redirectToLinkedIn() {
 }
 
 function redirectToFigma() {
-    window.open("https://www.figma.com/files/team/1411422037020726407/user/1411420557855841907?fuid=1411420557855841907", "_blank");
+    window.open("", "_blank");
 }
 
 function redirectToSpotify() {
