@@ -61,12 +61,12 @@ a {
 }
 
 .drawer {
-    display: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
     margin-top: 10px;
+    width: 100%;
 }
 
 .social-icons button,
@@ -90,17 +90,20 @@ a {
 }
 
 #more-options {
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+    display: none;
 }
 
 .container p {
     font-size: 16px;
     color: #ffffff;
     margin-top: 20px;
+}
+
+.drawer iframe {
+    border-radius: 12px;
+    width: 95%;
+    height: 352px;
+    max-width: 400px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -136,5 +139,11 @@ a {
 
     #more-options {
         font-size: 12px;
+    }
+
+    .drawer iframe {
+        width: 90%;
+        height: 240px;
+        max-width: 320px;
     }
 }
