@@ -1,6 +1,6 @@
 # Perfil de Luiza
 
-Este é um projeto simples de perfil pessoal desenvolvido em HTML, CSS e JavaScript. Ele inclui uma seção de informações básicas sobre a pessoa, links para redes sociais e um menu adicional que pode ser alternado.
+Este é um projeto simples de perfil pessoal desenvolvido em HTML, CSS e JavaScript. Ele inclui uma seção de informações básicas sobre mim, links para as minhas redes sociais principais no meio dev e um menu adicional para redes sociais de menor interesse.
 
 ## Visão Geral
 
