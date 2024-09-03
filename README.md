@@ -34,7 +34,7 @@ O projeto consiste em três arquivos principais:
    Para começar, clone este repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/seu-usuario/perfil-luiza.git
+   git clone https://github.com/fleabagreact/fleabagreact.github.io.git
    ```
 
 2. **Abra o Projeto**
@@ -42,7 +42,7 @@ O projeto consiste em três arquivos principais:
    Navegue até o diretório do projeto e abra o arquivo `index.html` em seu navegador:
 
    ```bash
-   cd perfil-luiza
+   cd fleabagreact.github.io
    ```
 
 3. **Visualize no Navegador**
