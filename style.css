@@ -1,3 +1,11 @@
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    color: inherit;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -61,8 +69,8 @@ a {
     margin-top: 10px;
 }
 
-.social-icons a,
-.drawer a {
+.social-icons button,
+.drawer button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +83,8 @@ a {
     font-size: 28px;
 }
 
-.social-icons a:hover,
-.drawer a:hover {
+.social-icons button:hover,
+.drawer button:hover {
     background-color: #a00000;
     transform: scale(1.1);
 }
@@ -115,8 +123,8 @@ a {
         font-size: 16.2px;
     }
 
-    .social-icons a,
-    .drawer a {
+    .social-icons button,
+    .drawer button {
         width: 60px;
         height: 60px;
         font-size: 22px;
