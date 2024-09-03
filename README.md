@@ -65,14 +65,14 @@ Você pode personalizar o projeto editando os seguintes arquivos:
 
 ## Links
 
-- **Instagram**: [@lududo_](https://www.instagram.com/lududo_)
+- **Instagram**: [lududo_](https://www.instagram.com/lududo_)
 - **Behance**: [luizasouzae](https://www.behance.net/luizasouzae)
 - **GitHub**: [fleabagreact](https://www.github.com/fleabagreact)
 - **LinkedIn**: [lududo](https://www.linkedin.com/lududo)
 - **Figma**: [luizasouzae](https://www.figma.com/luizasouzae)
-- **Spotify**: [Usuário Spotify](https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy)
-- **Letterboxd**: [Perfil Letterboxd](https://boxd.it/5jKwh)
-- **Skoob**: [Perfil Skoob](https://www.skoob.com.br/thebushesgirl)
+- **Spotify**: [96gjoojhzx0fb2bt5gqesqguy](https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy)
+- **Letterboxd**: [fleabagreact](https://boxd.it/5jKwh)
+- **Skoob**: [thebushesgirl](https://www.skoob.com.br/thebushesgirl)
 
 ## Contribuição
 
