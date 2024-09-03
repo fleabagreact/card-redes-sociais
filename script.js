@@ -1,33 +1,33 @@
 function redirectToInstagram() {
-    window.open("https://www.instagram.com", "_blank");
+    window.open("https://www.instagram.com/lududo_", "_blank");
 }
 
 function redirectToBehance() {
-    window.open("https://www.behance.net", "_blank");
+    window.open("https://www.behance.net/luizasouzae", "_blank");
 }
 
 function redirectToGitHub() {
-    window.open("https://www.github.com", "_blank");
+    window.open("https://www.github.com/fleabagreact", "_blank");
 }
 
 function redirectToLinkedIn() {
-    window.open("https://www.linkedin.com", "_blank");
+    window.open("https://www.linkedin.com/lududo", "_blank");
 }
 
 function redirectToFigma() {
-    window.open("https://www.figma.com", "_blank");
+    window.open("https://www.figma.com/luizasouzae", "_blank");
 }
 
 function redirectToSpotify() {
-    window.open("https://www.spotify.com", "_blank");
+    window.open("https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy", "_blank");
 }
 
 function redirectToLetterboxd() {
-    window.open("https://letterboxd.com/", "_blank");
+    window.open("https://boxd.it/5jKwh", "_blank");
 }
 
 function redirectToSkoob() {
-    window.open("https://www.skoob.com.br", "_blank");
+    window.open("https://www.skoob.com.br/thebushesgirl", "_blank");
 }
 
 function toggleDrawer() {
