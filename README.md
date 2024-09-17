@@ -70,9 +70,6 @@ Você pode personalizar o projeto editando os seguintes arquivos:
 - **GitHub**: [fleabagreact](https://www.github.com/fleabagreact)
 - **LinkedIn**: [lududo](https://www.linkedin.com/lududo)
 - **Figma**: [luizasouzae](https://www.figma.com/luizasouzae)
-- **Spotify**: [96gjoojhzx0fb2bt5gqesqguy](https://open.spotify.com/user/96gjoojhzx0fb2bt5gqesqguy)
-- **Letterboxd**: [fleabagreact](https://boxd.it/5jKwh)
-- **Skoob**: [thebushesgirl](https://www.skoob.com.br/thebushesgirl)
 
 ## Contribuição
 
