@@ -24,7 +24,7 @@ O projeto consiste em três arquivos principais:
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome para ícones
+- Font Poppins para ícones
 - Google Fonts para a fonte Poppins
 
 ## Instruções de Uso
@@ -34,7 +34,7 @@ O projeto consiste em três arquivos principais:
    Para começar, clone este repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/fleabagreact/fleabagreact.github.io.git
+   git clone https://github.com/fleabagreact/card-redes-sociais.git
    ```
 
 2. **Abra o Projeto**
@@ -42,7 +42,7 @@ O projeto consiste em três arquivos principais:
    Navegue até o diretório do projeto e abra o arquivo `index.html` em seu navegador:
 
    ```bash
-   cd fleabagreact.github.io
+   cd card-redes-sociais
    ```
 
 3. **Visualize no Navegador**
