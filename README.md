@@ -1,6 +1,6 @@
 # Perfil de Luiza
 
-Este é um projeto simples de perfil pessoal desenvolvido em HTML, CSS e JavaScript. Ele inclui uma seção de informações básicas sobre mim, links para as minhas redes sociais principais no meio dev e um menu adicional para redes sociais de menor interesse.
+Este é um projeto simples de perfil pessoal desenvolvido em HTML, CSS e JavaScript. Ele inclui uma seção de informações básicas sobre mim, links para as minhas redes sociais principais no meio dev e uma playlist no Spotify.
 
 ## Visão Geral
 
@@ -9,7 +9,6 @@ O site apresenta:
 - Uma imagem de perfil.
 - Uma breve descrição.
 - Links para várias redes sociais.
-- Um menu adicional oculto que pode ser exibido ao clicar em um ícone especial.
 
 ## Estrutura do Projeto
 
@@ -24,7 +23,7 @@ O projeto consiste em três arquivos principais:
 - HTML5
 - CSS3
 - JavaScript
-- Font Poppins para ícones
+- Font Awesome para ícones
 - Google Fonts para a fonte Poppins
 
 ## Instruções de Uso
@@ -39,7 +38,7 @@ O projeto consiste em três arquivos principais:
 
 2. **Abra o Projeto**
 
-   Navegue até o diretório do projeto e abra o arquivo `index.html` em seu navegador:
+   Navegue até o diretório do projeto:
 
    ```bash
    cd card-redes-sociais
