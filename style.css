@@ -33,7 +33,6 @@ a {
     align-items: center;
 }
 
-
 .container p {
     font-size: 16px;
     color: #ffffff;
@@ -64,8 +63,15 @@ a {
     color: #ffffff;
 }
 
-.info h2 {
-    font-size: 18px;
+.info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: left;
+}
+
+.links h2 {
+    font-size: 24px;
     margin: 20px 0 10px;
     color: #ffffff;
 }
@@ -111,6 +117,10 @@ a {
     max-width: 400px;
 }
 
+p {
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         transform: scale(0.95);
@@ -131,8 +141,8 @@ a {
         font-size: 21.6px;
     }
 
-    .info h2 {
-        font-size: 16.2px;
+    .links h2 {
+        font-size: 21.6px;
     }
 
     .social-icons button {
