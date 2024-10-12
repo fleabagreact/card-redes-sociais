@@ -26,7 +26,6 @@ a {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
     width: 100%;
     max-width: 450px;
     display: flex;
@@ -34,11 +33,29 @@ a {
     align-items: center;
 }
 
+
+.container p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .profile-picture img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 2px solid #800000;
+}
+
+.info {
+    color: #ffffff;
+    max-width: 400px;
 }
 
 .info h1 {
@@ -60,15 +77,6 @@ a {
     margin-top: 10px;
 }
 
-.drawer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
-    width: 100%;
-}
-
 .social-icons button {
     display: flex;
     justify-content: center;
@@ -87,14 +95,13 @@ a {
     transform: scale(1.1);
 }
 
-#more-options {
-    display: none;
-}
-
-.container p {
-    font-size: 16px;
-    color: #ffffff;
-    margin-top: 20px;
+.drawer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .drawer iframe {
@@ -109,6 +116,10 @@ a {
         transform: scale(0.95);
         transform-origin: center;
         max-width: 350px;
+    }
+
+    .container p {
+        font-size: 12px;
     }
 
     .profile-picture img {
@@ -128,19 +139,5 @@ a {
         width: 60px;
         height: 60px;
         font-size: 22px;
-    }
-
-    .container p {
-        font-size: 12px;
-    }
-
-    #more-options {
-        font-size: 12px;
-    }
-
-    .drawer iframe {
-        width: 90%;
-        height: 240px;
-        max-width: 320px;
     }
 }
